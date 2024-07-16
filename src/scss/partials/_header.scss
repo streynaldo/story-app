@@ -1,0 +1,21 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixins" as mix;
+@use "sass:map";
+
+header {
+  background-color: var.$primary-color;
+  nav #logo {
+    color: var.$secondary-color;
+  }
+  .nav-item a {
+    color: var.$white-color;
+    &:hover {
+      color: var.$tertiary-color;
+      font-weight: bold;
+    }
+  }
+  .nav-item .nav-link.active {
+    color: var.$black-color;
+    font-weight: bold;
+  }
+}

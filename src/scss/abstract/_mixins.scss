@@ -1,0 +1,15 @@
+// buatkan efek hover pada tombol
+@mixin hover-effect {
+  &:hover {
+    transform: translateY(-3px);
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 1rem 2rem rgba($color: #000, $alpha: 0.2);
+  }
+}
+
+@mixin popping-effect {
+  &:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+  }
+}

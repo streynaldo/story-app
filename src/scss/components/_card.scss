@@ -1,0 +1,6 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixins" as mix;
+
+#storiesContainer .card {
+  @include mix.hover-effect;
+}

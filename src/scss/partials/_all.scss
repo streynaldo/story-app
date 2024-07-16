@@ -1,0 +1,7 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixins" as mix;
+@use "sass:map";
+
+html{
+    font-family: var.$primary-fonts;
+}

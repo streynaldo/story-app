@@ -1,0 +1,6 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixins" as mix;
+
+button#closeModal {
+  @include mix.popping-effect;
+}

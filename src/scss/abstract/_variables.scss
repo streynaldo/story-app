@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400px,
+);
+
+$primary-color: #FFB200;
+$secondary-color: #EB5B00;
+$tertiary-color: #E4003A;
+$quaternary-color: #B60071;
+$black-color: #000000;
+$white-color: #FFFFFF;
+
+$primary-fonts: "Roboto", sans-serif;
+
+$primary-border-radius: 4px;
+$secondary-border-radius: 6px;
+
+$button-transitionanim-time: 0.15s;
+$button-transitionanim-style: linear;
+$floating-transitionanim-time: 6px;
