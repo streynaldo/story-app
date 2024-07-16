@@ -7,3 +7,9 @@ import "./NavApp";
 import "./NavLinks";
 import "./NavLink";
 import "./FooterApp";
+
+
+// forms
+import "./form/TextareaWithVal";
+import "./form/InputImageWithPreview";
+

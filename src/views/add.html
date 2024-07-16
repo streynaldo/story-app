@@ -10,10 +10,38 @@
       <nav-app appName="StoryKu"></nav-app>
     </header>
     <main class="container py-5">
-        
-      <form action="" method="POST">
-
-      </form>
+      <div class="d-flex flex-column justify-content-center">
+        <h2 class="text-danger text-center">Add Story</h2>
+        <form
+          action="#"
+          id="addForm"
+          class="form-floating w-50 mx-auto mt-2"
+          novalidate
+        >
+          <textarea-with-validation
+            inputId="descInput"
+            labelName="Description"
+            class="form-floating"
+            rows="10"
+            invalidMessage="Input Kosong"
+            required
+          ></textarea-with-validation>
+          <div class="my-3">
+            <input-image-with-preview
+              inputId="imgInput"
+              labelName="Photo"
+              invalidMessage="Input Kosong"
+              isValid
+              required
+            ></input-image-with-preview>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger" id="submitBtn">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
     <footer>
       <div class="main-footer">
